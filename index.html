@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mara Café - El mejor café de especialidad en Santa Catarina, Nuevo León. Disfruta de un ambiente premium, repostería artesanal y la mejor atención.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mara Café | Café Premium en Santa Catarina">
+    <meta property="og:description" content="Disfruta del mejor café de especialidad y repostería en un ambiente acogedor.">
+    <meta property="og:image" content="https://pruebatupagina-free.github.io/mara-cafe/assets/images/hero.png">
+    
+    <title>Mara Café | Experiencia Premium en Santa Catarina</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YE74C3RF9L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YE74C3RF9L');
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "Mara Café",
+      "image": "https://pruebatupagina-free.github.io/mara-cafe/assets/images/hero.png",
+      "@id": "",
+      "url": "https://pruebatupagina-free.github.io/mara-cafe/",
+      "telephone": "+528125923755",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Santa Catarina",
+        "addressLocality": "Santa Catarina",
+        "addressRegion": "NL",
+        "addressCountry": "MX"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "22"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Mara <span>Café</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#servicios">Nuestro Menú</a></li>
+                <li><a href="#testimonios">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="https://calendly.com/edwardgemini18/reservacion" target="_blank" class="btn btn-primary">Reservar Mesa</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#servicios">Nuestro Menú</a></li>
+            <li><a href="#testimonios">Reseñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="https://calendly.com/edwardgemini18/reservacion" target="_blank" class="btn btn-primary">Reservar Mesa</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="assets/images/hero.png" alt="Interior de Mara Café">
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content reveal">
+            <h1>Despierta tus sentidos con el mejor <span>Café de Especialidad</span></h1>
+            <p>En Mara Café, cada taza es una obra de arte. Disfruta de un ambiente premium en el corazón de Santa Catarina, Nuevo León.</p>
+            <div class="hero-buttons">
+                <a href="https://calendly.com/edwardgemini18/reservacion" target="_blank" class="btn btn-primary">Reservar una Mesa</a>
+                <a href="https://wa.me/528125923755?text=Hola%2C%20me%20gustaría%20hacer%20un%20pedido%20o%20conocer%20su%20menú" target="_blank" class="btn btn-secondary">Hacer un Pedido</a>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>4.9 ⭐</h3>
+                    <p>En Google Maps</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Café Orgánico</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Nuestra <span>Oferta</span></h2>
+                <p>Elaborado con pasión por baristas expertos.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <img src="assets/images/service-1.png" alt="Café de Especialidad">
+                    <div class="service-content">
+                        <h3>Café de Especialidad</h3>
+                        <p>Granos seleccionados y tostados a la perfección para brindarte notas de sabor únicas en cada extracción.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal" style="transition-delay: 0.1s;">
+                    <img src="assets/images/service-2.png" alt="Repostería Artesanal">
+                    <div class="service-content">
+                        <h3>Repostería Artesanal</h3>
+                        <p>Pan horneado diariamente y postres gourmet que complementan idealmente tu bebida favorita.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal" style="transition-delay: 0.2s;">
+                    <img src="assets/images/service-3.png" alt="Ambiente Premium">
+                    <div class="service-content">
+                        <h3>Ambiente Premium</h3>
+                        <p>Un espacio acogedor, con Wi-Fi de alta velocidad, perfecto para trabajar, estudiar o relajarte.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Lo que dicen nuestros <span>Clientes</span></h2>
+                <p>Nuestra calificación casi perfecta nos respalda.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"El mejor café que he probado en Santa Catarina. El ambiente es súper tranquilo y la atención es de primera. Las rebanadas de pastel son deliciosas."</p>
+                    <h4>— Cliente en Google Maps</h4>
+                </div>
+                <div class="testimonial-card reveal" style="transition-delay: 0.1s;">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Excelente lugar para venir a trabajar con tu laptop o platicar con amigos. El diseño del lugar es hermoso y el café siempre está en su punto perfecto."</p>
+                    <h4>— Cliente Frecuente</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h2>Visítanos en <span>Mara Café</span></h2>
+                    <p>Estamos listos para recibirte y prepararte tu café favorito.</p>
+                    
+                    <div class="info-item">
+                        <div class="icon">📍</div>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Santa Catarina, Nuevo León</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon">📞</div>
+                        <div>
+                            <h4>Teléfono / WhatsApp</h4>
+                            <a href="tel:8125923755" style="color: var(--text); text-decoration: none;">81 2592 3755</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon">🕒</div>
+                        <div>
+                            <h4>Horario</h4>
+                            <p>Lunes a Sábado: 8:00 AM - 9:00 PM<br>Domingo: Cerrado</p>
+                        </div>
+                    </div>
+
+                    <a href="https://calendly.com/edwardgemini18/reservacion" target="_blank" class="btn btn-primary" style="margin-top: 1rem;">Reservar una Mesa</a>
+                </div>
+                <div class="contact-map reveal">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=Mara+Cafe+Santa+Catarina+Nuevo+Leon&t=&z=17&ie=UTF8&iwloc=&output=embed" 
+                        width="100%" height="100%" 
+                        style="border:0;border-radius:16px;box-shadow: 0 10px 30px rgba(0,0,0,0.1);" 
+                        allowfullscreen loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h2>Mara <span>Café</span></h2>
+                <p>Elaborando momentos, una taza a la vez.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#hero">Inicio</a>
+                <a href="#servicios">Menú</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mara Café. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Flotante -->
+    <a href="https://wa.me/528125923755?text=Hola%2C%20vengo%20de%20su%20página%20web%20y%20me%20gustaría%20más%20información." class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 32 32" width="32" height="32">
+            <path fill="#FFF" d="M16 2.001a13.978 13.978 0 0 0-11.83 21.464L2 29.998l6.702-2.13A13.974 13.974 0 0 0 16 29.998c7.72 0 14-6.28 14-14s-6.28-14-14-14zM16 27.65a11.64 11.64 0 0 1-5.932-1.615l-.426-.252-4.407 1.402 1.428-4.298-.277-.44A11.636 11.636 0 0 1 4.348 16c0-6.425 5.226-11.65 11.652-11.65 6.425 0 11.65 5.225 11.65 11.65S22.425 27.65 16 27.65zm6.392-8.73c-.35-.175-2.073-1.025-2.394-1.14-.32-.116-.554-.175-.788.175-.233.35-.904 1.14-1.108 1.375-.204.233-.408.263-.758.088-.35-.175-1.48-.546-2.822-1.745-.104-.093-1.127-1.03-1.577-1.808-.204-.35.093-.523.26-.697.16-.16.35-.408.525-.612.175-.204.233-.35.35-.584.117-.233.058-.437-.03-.612-.088-.175-.788-1.9-1.08-2.6-.285-.683-.577-.59-.788-.6-.2-.01-.437-.01-.67-.01s-.612.087-.933.437c-.32.35-1.225 1.196-1.225 2.917s1.254 3.383 1.43 3.617c.175.233 2.467 3.763 5.978 5.28.835.362 1.487.578 1.995.74.837.265 1.6.227 2.2.138.67-.1 2.073-.846 2.365-1.662.292-.817.292-1.517.204-1.662-.088-.146-.32-.233-.67-.408z"></path>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
