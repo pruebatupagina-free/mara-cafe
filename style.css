@@ -1,12 +1,12 @@
 :root {
-    /* Premium Cafe Palette */
-    --primary: #3e2723; /* Dark Coffee */
-    --accent: #d4a574;  /* Warm Caramel */
-    --accent-hover: #c2915c;
-    --bg-dark: #2c1a16;
-    --text-light: #ffffff;
-    --text: #333333;
-    --bg-light: #fdfbf7;
+    /* Cute Maximalist Cafe Palette */
+    --primary: #ff85a2; /* Pastel Pink */
+    --accent: #ffeb3b;  /* Bright Yellow */
+    --accent-hover: #fdd835;
+    --bg-dark: #ffeef2; /* Light Pastel Pink */
+    --text-light: #4a3b32; /* Dark Brown for text on light backgrounds */
+    --text: #4a3b32;
+    --bg-light: #fffcf2; /* Cream/Beige */
     --gray: #888888;
 }
 
@@ -75,25 +75,25 @@ span {
 
 .btn-primary {
     background-color: var(--accent);
-    color: white;
-    box-shadow: 0 4px 15px rgba(212, 165, 116, 0.4);
+    color: var(--text);
+    box-shadow: 0 4px 15px rgba(255, 235, 59, 0.4);
 }
 
 .btn-primary:hover {
     background-color: var(--accent-hover);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(212, 165, 116, 0.6);
+    box-shadow: 0 6px 20px rgba(255, 235, 59, 0.6);
 }
 
 .btn-secondary {
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
+    background-color: white;
+    color: var(--primary);
+    border: 2px solid var(--primary);
 }
 
 .btn-secondary:hover {
-    background-color: white;
-    color: var(--primary);
+    background-color: var(--primary);
+    color: white;
 }
 
 /* Navbar */
@@ -305,10 +305,11 @@ span {
 
 .service-card {
     background: white;
-    border-radius: 20px;
+    border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border: 3px solid #ffeef2;
 }
 
 .service-card:hover {
@@ -353,11 +354,12 @@ span {
 }
 
 .testimonial-card {
-    background: rgba(255,255,255,0.05);
+    background: white;
     padding: 3rem;
-    border-radius: 20px;
-    border: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 3px solid #ffeef2;
+    color: var(--text);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 .stars {
@@ -414,7 +416,7 @@ span {
 
 /* Footer */
 footer {
-    background: var(--bg-dark);
+    background: var(--primary);
     color: white;
     padding: 4rem 0 2rem;
 }
