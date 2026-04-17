@@ -14,9 +14,9 @@
 - **Tono de Voz:** "Cute", juvenil, maximalista, amable. Hablan de "Maramigos", usan emojis como 🌸✨🥯🍵 y mantienen una vibra "Gen-Z Cozy".
 - **Estilo Fotográfico Ideal:** Muy iluminado, colores pastel vibrantes, aesthetic *Pinterest*. Fotos desde arriba (top-down) con stickers o detalles *cute* en las mesas.
 
-## Servicios Principales
-1. **Los Famosos Bagels:** Salados y dulces. Son su producto insignia.
-2. **Matcha & Café:** Especialistas en Iced Matchas y Lattes bonitos.
+## Servicios y Menú
+1. **Los Famosos Bagels:** Salados y dulces. (Ej. Bagel Tocino, Bagel Pepperoni).
+2. **Matcha & Bebidas Especiales:** Especialistas en el "Crepúsculo Matcha", "Luna Nueva" y el icónico "Latte Mara" (que lleva mazapán).
 3. **El Rincón Feliz:** Venden la experiencia de ir a un lugar estéticamente hermoso y cómodo ("Aesthetic").
 
 ## Dolores del Cliente (Por qué nos contrataron)

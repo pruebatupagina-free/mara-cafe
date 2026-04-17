@@ -367,6 +367,79 @@ span {
     margin-bottom: 1.5rem;
 }
 
+/* Menu Section */
+.menu-section {
+    padding: 8rem 0;
+    background-color: white;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.menu-category {
+    margin-bottom: 3rem;
+}
+
+.menu-category h3 {
+    font-size: 1.8rem;
+    color: var(--primary);
+    border-bottom: 2px dashed var(--accent);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+
+.menu-item-name {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background: white;
+    padding-right: 0.5rem;
+    z-index: 1;
+}
+
+.menu-item-desc {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--gray);
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.menu-item-dots {
+    flex-grow: 1;
+    border-bottom: 1px dotted var(--gray);
+    margin: 0 10px;
+    position: relative;
+    top: -6px;
+}
+
+.menu-item-price {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: var(--text);
+    background: white;
+    padding-left: 0.5rem;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
 .testimonial-card p {
     font-size: 1.1rem;
     font-style: italic;
